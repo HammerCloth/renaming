@@ -19,9 +19,9 @@ public class Main {
     }
     private static String changeName(String str){
         StringBuffer sb = new StringBuffer();
-        //sb.append(str.substring(0,6));
-        sb.append(str.substring(13,str.length()-7));
-        sb.append(str.substring(str.length()-4,str.length()));
+        sb.append(str.substring(0,str.length()-8));
+        sb.append(str.substring(str.length()-6,str.length()));
+        //sb.append(str.substring(str.length()-4,str.length()));
         return sb.toString();
     }
 }
